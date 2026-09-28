@@ -12,6 +12,16 @@
 #include <dt-bindings/zmk/reset.h>
 
 / {
+    behaviors {
+        layer_dance: layer_dance {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&mo 1>, <&mo 2>;
+            display-name = "Layer Dance";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
