@@ -16,8 +16,8 @@
         layer_dance: layer_dance {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&mo 1>, <&mo 2>;
+            tapping-term-ms = <250>;
+            bindings = <&mo 1>, <&mo 3>;
             display-name = "Layer Dance";
         };
     };
